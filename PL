@@ -11,7 +11,7 @@ screen.DEBUG = Spali Ci Kompa
     screen.DEBUG.comment = Stworzone przez 2Roszczohrany §f§r, Prezentowane przed Tobą (C) §9FreakingStudio. §eJebnij aby otworzyć ustawienia debugowania szejderów!
 
     option.COLOR_MODE = Tryb Kolorów
-        value.COLOR_MODE.0 = Wyłączony
+        value.COLOR_MODE.0 = Wył
         value.COLOR_MODE.1 = Biały jak proszek
         value.COLOR_MODE.2 = Czarny jak Hasz
         value.COLOR_MODE.3 = Tryb liści
@@ -20,40 +20,40 @@ screen.DEBUG = Spali Ci Kompa
     option.NOISE_SPEED = Noise speed
 
 screen.POST = Post
-    option.OUTLINES = Outlines
-        value.OUTLINES.0 = OFF
-        value.OUTLINES.1 = Standard
-        value.OUTLINES.2 = Dungeons
+    option.OUTLINES = Krawędzie
+        value.OUTLINES.0 = Wył
+        value.OUTLINES.1 = Standardowe
+        value.OUTLINES.2 = Paskudne
 
     option.OUTLINE_BRIGHTNESS = Outline brightness
-    option.OUTLINE_PIXEL_SIZE = Outline pixel size
+    option.OUTLINE_PIXEL_SIZE = Wielkość krawędzi w pixelach
     option.RETRO_FILTER = Retro filter
 
     option.ANTI_ALIASING = Anti aliasing
-        value.ANTI_ALIASING.0 = OFF
+        value.ANTI_ALIASING.0 = Wył
         value.ANTI_ALIASING.1 = FXAA
         value.ANTI_ALIASING.2 = TAA
-        value.ANTI_ALIASING.3 = Lite TAA + FXAA
+        value.ANTI_ALIASING.3 = Ciutkę TAA + FXAA
 
-    option.SHARPEN_FILTER = Sharpen filter
+    option.SHARPEN_FILTER = Filtry ostrości
 
-    screen.CAMERA = Camera settings
-        option.DOF = Depth of field
-        option.DOF_STRENGTH = Depth of field strength
-        option.CHROMATIC_ABERRATION = Chromatic aberration
-        option.ABERRATION_PIXEL_SIZE = Aberration pixel size
-        option.BLOOM = Bloom
-        option.BLOOM_STRENGTH = Bloom strength
-        option.LENS_FLARE = Lens flare
-        option.LENS_FLARE_STRENGTH = Lens flare strength
+    screen.CAMERA = Ustawienia kamery
+    option.DOF = Iluzja głębi
+        option.DOF_STRENGTH = Siła Iluzji
+        option.CHROMATIC_ABERRATION = Aberacja chromatyczma
+        option.ABERRATION_PIXEL_SIZE = Wielkość aberacji w pikselach
+        option.BLOOM = Rozmycie
+        option.BLOOM_STRENGTH = Siła rozmycia
+        option.LENS_FLARE = Promienie słoneczne
+        option.LENS_FLARE_STRENGTH = Moc promienia
         option.VIGNETTE = Vignette
-        option.VIGNETTE_STRENGTH = Vignette strength
-        option.MOTION_BLUR = Motion blur
-        option.MOTION_BLUR_STRENGTH = Motion blur strength
+        option.VIGNETTE_STRENGTH = Siła Vignette
+        option.MOTION_BLUR = Rozmycie ruchu
+        option.MOTION_BLUR_STRENGTH = Intensywność rozmycia podczas ruchu
 
-    screen.TONEMAP = Tonemap settings
-        option.CONTRAST = Contrast
-        option.SATURATION = Saturation
+    screen.TONEMAP = Ustawienia tonów barw
+        option.CONTRAST = Kontrast
+        option.SATURATION = Saturacja
         option.WHITE_POINT = White point
         option.SHOULDER_STRENGTH = Shoulder strength
         option.AUTO_EXPOSURE = Auto exposure
