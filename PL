@@ -1,23 +1,22 @@
-## Language format v1.0.4
-## All other .lang files must update to the latest language format version on this main .lang file
+## JĘZYK VER.0.1
 
-## Profiles
-    profile.POTATO = Potato
-    profile.LOW = Low
-    profile.MEDIUM = Medium (Default)
-    profile.HIGH = High
+## Jakość
+    profile.POTATO = Drewniana
+    profile.LOW = Delikatna
+    profile.MEDIUM = Średnia (Domyślna)
+    profile.HIGH = Wyrazista
     profile.ULTRA = Ultra
 
-screen.DEBUG = Super Duper Vanilla v1.3.5
-    screen.DEBUG.comment = Developed by §2Eldeston§f§r, presented by §9FlameRender (C) §9Studios. §eClick me to open shader debug settings!
+screen.DEBUG = Spali Ci Kompa
+    screen.DEBUG.comment = Stworzone przez 2Roszczohrany §f§r, Prezentowane przed Tobą (C) §9FreakingStudio. §eJebnij aby otworzyć ustawienia debugowania szejderów!
 
-    option.COLOR_MODE = Color mode
-        value.COLOR_MODE.0 = OFF
-        value.COLOR_MODE.1 = White Mode
-        value.COLOR_MODE.2 = Black Mode
-        value.COLOR_MODE.3 = Foliage Mode
+    option.COLOR_MODE = Tryb Kolorów
+        value.COLOR_MODE.0 = Wyłączony
+        value.COLOR_MODE.1 = Biały jak proszek
+        value.COLOR_MODE.2 = Czarny jak Hasz
+        value.COLOR_MODE.3 = Tryb liści
 
-    option.ENTITY_BLOCK_TRANSPARENCY = Entity block transparency
+    option.ENTITY_BLOCK_TRANSPARC = 
     option.NOISE_SPEED = Noise speed
 
 screen.POST = Post
