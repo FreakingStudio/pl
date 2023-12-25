@@ -53,9 +53,9 @@ screen.POST = Post
 
     screen.TONEMAP = Ustawienia tonów barw
         option.CONTRAST = Kontrast
-        option.SATURATION = Saturacja
-        option.WHITE_POINT = White point
-        option.SHOULDER_STRENGTH = Shoulder strength
+        option.SATURATION = Nasycenie barw
+        option.WHITE_POINT = Biały punkt
+        option.SHOULDER_STRENGTH = Siła wyskoku barwnego
         option.AUTO_EXPOSURE = Auto exposure
         option.AUTO_EXPOSURE_SPEED = Auto exposure speed
         option.EXPOSURE = Exposure
