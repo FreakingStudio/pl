@@ -1,4 +1,4 @@
-## JĘZYK VER.0.1
+## JĘZYK VER.0.3
 
 ## Jakość
     profile.POTATO = Drewniana
@@ -26,7 +26,7 @@ screen.POST = Post
         value.OUTLINES.2 = Paskudne
 
     option.OUTLINE_BRIGHTNESS = Outline brightness
-    option.OUTLINE_PIXEL_SIZE = Wielkość krawędzi w pixelach
+    option.OUTLINE_PIXEL_SIZE = Rozmiar krawędzi
     option.RETRO_FILTER = Retro filter
 
     option.ANTI_ALIASING = Anti aliasing
@@ -45,9 +45,9 @@ screen.POST = Post
         option.BLOOM = Rozmycie
         option.BLOOM_STRENGTH = Siła rozmycia
         option.LENS_FLARE = Promienie słoneczne
-        option.LENS_FLARE_STRENGTH = Moc promienia
-        option.VIGNETTE = Vignette
-        option.VIGNETTE_STRENGTH = Siła Vignette
+        option.LENS_FLARE_STRENGTH = Siła rażenia po gałach
+        option.VIGNETTE = Obramowanie
+        option.VIGNETTE_STRENGTH = Siła ramki
         option.MOTION_BLUR = Rozmycie ruchu
         option.MOTION_BLUR_STRENGTH = Intensywność rozmycia podczas ruchu
 
@@ -66,15 +66,15 @@ screen.POST = Post
 
 screen.LIGHTING = Oświetlenie
     option.SHADOW_MAPPING = Mapowanie cieni
-    option.SHADOW_COLOR = Kolor cieni
-    option.SHADOW_FILTER = Filtr cieni
+    option.SHADOW_COLOR = Kolorowe cienie
+    option.SHADOW_FILTER = Filtry cieni
     option.ENTITY_SHADOWS = Ciebie bytów
     option.BLOCK_ENTITY_SHADOWS = Elementy cieni bloków
     option.shadowMapResolution = Rozdzielczość cieni
     option.shadowDistance = Odległość cieni
     option.sunPathRotation = Kąt świecenia światła
 
-    option.UNDERWATER_CAUSTICS = Podwodne () 
+    option.UNDERWATER_CAUSTICS = Odbicia światła pod wodą
         value.UNDERWATER_CAUSTICS.0 = Wył
         value.UNDERWATER_CAUSTICS.1 = Podwodne
         value.UNDERWATER_CAUSTICS.2 = Na pełnej kurwie
@@ -94,7 +94,7 @@ screen.ATMOSPHERICS = Atmosfera
     option.SUN_MOON_TYPE = Typ Słońca/Księżyca
         value.SUN_MOON_TYPE.0 = Domyślny
         value.SUN_MOON_TYPE.1 = Okrągły
-        value.SUN_MOON_TYPE.2 = Nostalgiczny z Vanilli
+        value.SUN_MOON_TYPE.2 = z Vanilli
 
     option.SUN_MOON_INTENSITY = Intensywność Słońca/Księżyca
     option.VOLUMETRIC_LIGHTING = Objętość świecenia
@@ -125,7 +125,7 @@ screen.WORLD = Świat
     option.WORLD_CURVATURE = Zgięcie świata
     option.WORLD_CURVATURE_SIZE = Siła wyginania świata
 
-screen.PBR = Odwzorowanie, jak światło, właściwości materiału oddziałują na siebie PBR
+screen.PBR = USTAWIENIA FIZYKI
     option.PBR_MODE = Tryb PBR
         value.PBR_MODE.0 = Wył
         value.PBR_MODE.1 = Zintegrowane PBR
@@ -200,9 +200,9 @@ screen.CONFIGURATION = Configuracja
             option.SKY0_TI = Intensywność nieba
 
         screen.FOG_SETTINGS0 = Ustawienia mgły
-            option.FOG0_VERTICAL_DENSITY_D = Pionowa gęstość dziennej mgły
-            option.FOG0_VERTICAL_DENSITY_N = Pionowa gęstość nocnej mgły
-            option.FOG0_VERTICAL_DENSITY_T = Pionowa gęstość mgły zmierzchu
+            option.FOG0_VERTICAL_DENSITY_D = gęstość dziennej mgły
+            option.FOG0_VERTICAL_DENSITY_N = gęstość nocnej mgły
+            option.FOG0_VERTICAL_DENSITY_T = gęstość mgły zmierzchu
             option.FOG0_TOTAL_DENSITY = Całkowite zbicie mgły
 
     screen.NETHER_SETTINGS = Nether settings
